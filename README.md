@@ -18,8 +18,6 @@ python app.py
 ```
 
 ## Notes
-- Runs on CPU or GPU
-- Uses 4-bit quantization (BitsAndBytes)
-- Extend with SQLite, Langchain, or Whisper for speech input
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/goswami-kapil/bharatbot/blob/main/bharatbot_colab.ipynb)
+- Runs on CPU
+- Uses TinyLLaMA (1.1B), small and fast
+- Extendable to Hindi-specific tasks, SQLite logging, voice input

@@ -1,4 +1,4 @@
-### BharatBot: Minimal Bilingual Chatbot (Hindi + English)
+### BharatBot: Lightweight Local Chatbot (Hindi + English)
 # File: app.py
 
 import gradio as gr
@@ -15,4 +15,3 @@ def chat(user_input, history=[]):
 
 # Launch Gradio chat interface
 gr.ChatInterface(fn=chat, chatbot_height=400).launch()
-
